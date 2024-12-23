@@ -17,7 +17,7 @@ const Home = () => {
       <Services />
       <GrowthStories />
       <DigitalMarketing />
-      <FeaturedBlogPosts />
+      {/* <FeaturedBlogPosts />
       <main className="min-h-screen bg-gray-50">
         <section className="bg-cover bg-center h-screen" style={{ backgroundImage: 'url(/path-to-hero-image.jpg)' }}>
           <div className="flex items-center justify-center h-full text-white text-center">
@@ -30,7 +30,7 @@ const Home = () => {
             <p className="text-gray-600">We provide top-notch solutions for your business.</p>
           </div>
         </section>
-      </main>
+      </main> */}
       <Footer />
     </div>
   );

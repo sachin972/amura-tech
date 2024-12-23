@@ -65,9 +65,9 @@ const FeaturedBlogPosts = () => {
             <div
               className={`text-4xl mb-4 p-4 rounded-full transition-colors duration-300 ${service.hoverBg} ${service.hoverText}`}
             >
-              <img src={`${service.image}`} />
+              <img className='items-center' src={`${service.image}`} />
             </div>
-            <h3 className={`text-2xl font-semibold transition-colors duration-300 ${service.hoverText}`}>
+            <h3 className={`text-2xl font-semibold transition-colors items-center duration-300 ${service.hoverText}`}>
               {service.title}
             </h3>
             <p className='text-xl'>{service.text}</p>
