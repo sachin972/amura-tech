@@ -6,6 +6,7 @@ import GrowthMarketingSection from '../components/GrowthMarketingSection';
 import Services from '../components/Services';
 import GrowthStories from '../components/GrowthStories';
 import DigitalMarketing from '../components/MarketingStats';
+import FeaturedBlogPosts from '../components/FeaturedBlogPosts';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Services />
       <GrowthStories />
       <DigitalMarketing />
+      <FeaturedBlogPosts />
       <main className="min-h-screen bg-gray-50">
         <section className="bg-cover bg-center h-screen" style={{ backgroundImage: 'url(/path-to-hero-image.jpg)' }}>
           <div className="flex items-center justify-center h-full text-white text-center">

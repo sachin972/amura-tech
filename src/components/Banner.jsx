@@ -121,7 +121,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative bg-blue-900 h-2/5 flex items-center overflow-hidden">
+    <div className="relative bg-blue-900 h-4/5 flex items-center overflow-hidden">
       {/* Left Text Section */}
       <div className="relative z-10 w-1/2 px-12 text-white translate-x-1/4">
         <h1
@@ -154,11 +154,11 @@ const Banner = () => {
 
       {/* Right Image Section */}
       <div className="relative w-1/2 h-full">
-        <div className="bg-blue-300 p-4 rounded-l-full">
+        <div className="bg-blue-300 -p-4 rounded-l-full">
         <img
           src={slides[currentSlide].image}
           alt="Banner Background"
-          className="object-cover w-full h-full transition-opacity duration-1000 ease-in-out animate-breathe rounded-l-full transform translate-x-28"
+          className="object-cover w-full h-full transition-opacity rounded-l-full transform translate-x-28"
         />
         </div>
       </div>
