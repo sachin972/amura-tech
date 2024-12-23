@@ -21,9 +21,9 @@ const DigitalMarketing = () => {
   ];
 
   return (
-    <div className="bg-[#1B1F3B] w-full min-h-screen relative overflow-hidden flex flex-row">
+    <div className="bg-[#1B1F3B] w-full min-h-[700px] relative overflow-hidden flex flex-row">
       {/* Content Section */}
-      <div className="relative z-10 p-12">
+      <div className="relative p-12">
         <h1 className="text-[#9BC53D] text-4xl font-bold leading-tight mb-4">
           WE ARE REVOLUTIONISING<br />
           DIGITAL MARKETING IN INDIA.
@@ -42,27 +42,30 @@ const DigitalMarketing = () => {
           <div 
             key={index}
             className={`
+                
               absolute top-0 right-0 h-full
               transform transition-all duration-500
               hover:scale-[1.02] cursor-pointer
               group
             `}
             style={{
-              width: `${(index + 1) * 33.33}%`,
+              width: `${(index + 1) * 35}%`,
               zIndex: 3 - index,
             }}
           >
             <div 
               className={`
-                absolute top-0 right-0 h-full w-full
+                absolute top-0 right-0 h-full w-1/2
+                border-l-88 rounded-l-full
                 bg-gradient-to-r ${stat.gradientClass}
               `}
               style={{
                 clipPath: 'path("M0 0 L100% 0 L100% 100% L0 100% C50% 50% 0 0 0 0")',
+                // width: `${index*10 + 10}vw`
               }}
             >
               {/* Stats Content */}
-              <div className="absolute right-24 top-1/2 -translate-y-1/2 text-right">
+              <div className="absolute -left-36 top-1/2 -translate-y-1/2 text-right">
                 <div className="flex items-center justify-end gap-2">
                   <span className="text-white text-5xl font-bold">{stat.value}</span>
                   <div className="w-12 h-[2px] bg-white"></div>
