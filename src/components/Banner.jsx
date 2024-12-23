@@ -123,7 +123,7 @@ const Banner = () => {
   return (
     <div className="relative bg-blue-900 h-4/5 flex items-center overflow-hidden">
       {/* Left Text Section */}
-      <div className="relative z-10 w-1/2 px-12 text-white translate-x-1/4">
+      <div className="relative z-10 w-1/2 px-12 text-white translate-x-1/4 max-sm:w-full">
         <h1
           className="text-3xl md:text-5xl font-bold tracking-wide animate-slide-to-center"
           key={`title-${currentSlide}`}
@@ -153,7 +153,7 @@ const Banner = () => {
       </div>
 
       {/* Right Image Section */}
-      <div className="relative w-1/2 h-full">
+      <div className="relative w-1/2 h-full max-md:hidden">
         <div className="bg-blue-300 -p-4 rounded-l-full">
         <img
           src={slides[currentSlide].image}

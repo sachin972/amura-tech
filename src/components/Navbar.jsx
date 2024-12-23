@@ -49,6 +49,46 @@ const Navbar = () => {
       ),
     },
     {
+        label: 'Our Work',
+        key: 'our-work',
+        dropdown: (
+          <Menu>
+            <Menu.Item key="work-1">Email</Menu.Item>
+            <Menu.Item key="work-2">Phone</Menu.Item>
+          </Menu>
+        ),
+      },
+      {
+        label: 'About Amura',
+        key: 'about-amura',
+        dropdown: (
+          <Menu>
+            <Menu.Item key="about-1">Email</Menu.Item>
+            <Menu.Item key="about-2">Phone</Menu.Item>
+          </Menu>
+        ),
+      },
+      {
+        label: 'Careers',
+        key: 'careers',
+        dropdown: (
+          <Menu>
+            <Menu.Item key="careers-1">Email</Menu.Item>
+            <Menu.Item key="careers-2">Phone</Menu.Item>
+          </Menu>
+        ),
+      },
+      {
+        label: 'Resources',
+        key: 'resources',
+        dropdown: (
+          <Menu>
+            <Menu.Item key="resources-1">Email</Menu.Item>
+            <Menu.Item key="resources-2">Phone</Menu.Item>
+          </Menu>
+        ),
+      },
+    {
       label: 'Contact Us',
       key: 'contact',
       dropdown: (

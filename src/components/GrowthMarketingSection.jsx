@@ -34,9 +34,9 @@ const GrowthMarketingSection = () => {
         </p>
       </div>
 
-      <div className="flex items-center justify-center gap-8 ">
+      <div className="flex flex-col items-center justify-center gap-8 sm:flex-row">
         {features.map((feature, index) => (
-          <div key={index} className="text-center border rounded-lg p-6 shadow-lg w-1/3 max-w-sm">
+          <div key={index} className="text-center border rounded-lg p-3 shadow-lg w-1/3 max-w-sm">
             <div className="text-4xl mb-4">{feature.icon}</div>
             <h3 className="font-semibold text-lg mb-2">{feature.title}</h3>
             <p className="text-gray-600">{feature.description}</p>

@@ -23,7 +23,7 @@ const DigitalMarketing = () => {
   return (
     <div className="bg-[#1B1F3B] w-full min-h-[700px] relative overflow-hidden flex flex-row">
       {/* Content Section */}
-      <div className="relative p-12">
+      <div className="relative p-12 z-10">
         <h1 className="text-[#9BC53D] text-4xl font-bold leading-tight mb-4">
           WE ARE REVOLUTIONISING<br />
           DIGITAL MARKETING IN INDIA.
@@ -65,7 +65,7 @@ const DigitalMarketing = () => {
               }}
             >
               {/* Stats Content */}
-              <div className="absolute -left-36 top-1/2 -translate-y-1/2 text-right">
+              <div className="absolute -left-36 top-1/2 -translate-y-1/2 text-right max-md:hidden">
                 <div className="flex items-center justify-end gap-2">
                   <span className="text-white text-5xl font-bold">{stat.value}</span>
                   <div className="w-12 h-[2px] bg-white"></div>
