@@ -128,10 +128,10 @@ export default function ModalVideo({
                                 height={videoHeight/2}
                                 src="https://www.youtube.com/embed/w2cF-b37wQM?si=Mi1S9yl9jwPU-SOu"
                                 title="YouTube video player"
-                                frameborder="0"
+                                frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen
                             ></iframe>
                         </DialogPanel>
                     </div>
