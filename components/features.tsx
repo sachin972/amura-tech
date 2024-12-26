@@ -35,14 +35,14 @@ export default function Features() {
                     {/* Section header */}
                     <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
                         <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
-                            <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
+                            <span className="inline-flex bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
                                 Advanced Controls
                             </span>
                         </div>
-                        <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+                        <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
                             Built for Modern Industries
                         </h2>
-                        <p className="text-lg text-indigo-200/65">
+                        <p className="text-lg text-yellow-200/65">
                             Award-winning solutions customised to your business.
                         </p>
                     </div>
@@ -59,7 +59,7 @@ export default function Features() {
                     <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
                         <article>
                             <svg
-                                className="mb-3 fill-indigo-500"
+                                className="mb-3 fill-yellow-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -73,7 +73,7 @@ export default function Features() {
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                                 Pharma Digital Marketing
                             </h3>
-                            <p className="text-indigo-200/65">
+                            <p className="text-yellow-200/65">
                                 Looking for pharma digital marketing agencies in
                                 India? Our comprehensive strategies provide
                                 end-to-end pharma marketing solutions.
@@ -81,7 +81,7 @@ export default function Features() {
                         </article>
                         <article>
                             <svg
-                                className="mb-3 fill-indigo-500"
+                                className="mb-3 fill-yellow-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -95,7 +95,7 @@ export default function Features() {
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                                 Insurance Digital Marketing
                             </h3>
-                            <p className="text-indigo-200/65">
+                            <p className="text-yellow-200/65">
                                 Looking for digital marketing for the insurance
                                 industry in India? We are one of the leading
                                 digital growth marketing companies in India,
@@ -105,7 +105,7 @@ export default function Features() {
                         </article>
                         <article>
                             <svg
-                                className="mb-3 fill-indigo-500"
+                                className="mb-3 fill-yellow-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -119,7 +119,7 @@ export default function Features() {
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                                 FMCG Digital Marketing
                             </h3>
-                            <p className="text-indigo-200/65">
+                            <p className="text-yellow-200/65">
                                 Looking for a FMCG marketing agency in India?
                                 Our FMCG digital marketing strategies provide
                                 end-to-end solutions for the industry.
@@ -127,7 +127,7 @@ export default function Features() {
                         </article>
                         <article>
                             <svg
-                                className="mb-3 fill-indigo-500"
+                                className="mb-3 fill-yellow-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -146,7 +146,7 @@ export default function Features() {
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                                 Digital Marketing for Manufaturing Companies
                             </h3>
-                            <p className="text-indigo-200/65">
+                            <p className="text-yellow-200/65">
                                 Looking for digital marketing for manufacturing
                                 companies in India? Our industrial marketing
                                 strategies provide end-to-end digital marketing
@@ -155,7 +155,7 @@ export default function Features() {
                         </article>
                         <article>
                             <svg
-                                className="mb-3 fill-indigo-500"
+                                className="mb-3 fill-yellow-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -169,7 +169,7 @@ export default function Features() {
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                                 Healthcare Digital Marketing
                             </h3>
-                            <p className="text-indigo-200/65">
+                            <p className="text-yellow-200/65">
                                 Looking for healthcare digital marketing
                                 agencies in India? Our healthcare marketing
                                 strategies provide end-to-end solutions for the
@@ -178,7 +178,7 @@ export default function Features() {
                         </article>
                         <article>
                             <svg
-                                className="mb-3 fill-indigo-500"
+                                className="mb-3 fill-yellow-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -192,13 +192,13 @@ export default function Features() {
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                                 E-Commerce Industry
                             </h3>
-                            <p className="text-indigo-200/65">
+                            <p className="text-yellow-200/65">
                                 Looking for E-commerce Industry agencies in
                                 India? Our comprehensive strategies provide
                                 end-to-end E-commerce Industry solutions.
                             </p>
                         </article>
-                        <article className="mx-auto">
+                        {/* <article className="mx-auto">
                             <svg
                                 className="mb-3 fill-indigo-500"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -219,7 +219,7 @@ export default function Features() {
                                 india? Our comprehensive strategies provide
                                 end-to-end B2B industry solutions.
                             </p>
-                        </article>
+                        </article> */}
                     </div>
                 </div>
             </div>
