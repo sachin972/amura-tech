@@ -55,8 +55,8 @@ export default function ModalVideo({
                 data-aos-delay={200}
             >
                 <figure className="relative overflow-hidden rounded-2xl before:absolute before:inset-0 before:-z-10 before:bg-gradient-to-br before:from-gray-900 before:via-indigo-500/20 before:to-gray-900">
-                    <img
-                        src="https://i.ytimg.com/vi_webp/w2cF-b37wQM/maxresdefault.webp"
+                    <Image
+                        src={thumb}
                         width={thumbWidth}
                         height={thumbHeight}
                         alt={thumbAlt}

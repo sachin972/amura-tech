@@ -26,7 +26,7 @@ export default function Footer() {
                             Our Offices
                         </h3>
                         <ul className="space-y-2 text-sm">
-                            <li>
+                            {/* <li>
                                 <a
                                     className="text-yellow-200/65 transition hover:text-yellow-500"
                                     href="#0"
@@ -41,7 +41,7 @@ export default function Footer() {
                                 >
                                     Mumbai
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a
                                     className="text-yellow-200/65 transition hover:text-yellow-500"
