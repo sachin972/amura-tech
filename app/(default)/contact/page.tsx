@@ -392,7 +392,7 @@ export default function Contact() {
                 </div>
 
                 {/* Contact Form */}
-                <div className="grid gap-40 md:grid-cols-2">
+                <div className="grid gap-40 md:grid-cols-1">
                     {/* Form */}
                     <div>
                         <form>
@@ -464,8 +464,8 @@ export default function Contact() {
                     </div>
 
                     {/* Contact Info */}
-                    <div className="space-y-8">
-                        {/* <div>
+                    {/* <div className="space-y-8">
+                        <div>
                             <h3 className="text-lg font-semibold text-yellow-200">
                                 Our Office
                             </h3>
@@ -475,7 +475,7 @@ export default function Contact() {
                                 Bangalore - Falcon Towers , Ejipura ,
                                 Koramangala , Bangalore 560047
                             </p>
-                        </div> */}
+                        </div>
                         <div className="my-auto right-0">
                             <h3 className="text-lg font-semibold text-yellow-200">
                                 Email Us
@@ -492,7 +492,7 @@ export default function Contact() {
                                 +91 (777) 608-2238
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Map Section */}
@@ -537,6 +537,9 @@ export default function Contact() {
                             <p className="text-yellow-200/80 mt-2">
                                 <strong>Contact:</strong> +91 9876543210
                             </p>
+                            <p className="text-yellow-200/70">
+                                <strong>Email:</strong> contact@theajai.com
+                            </p>
                             <a
                                 href="https://goo.gl/maps/example" // Replace with actual Google Maps link
                                 target="_blank"
@@ -577,6 +580,9 @@ export default function Contact() {
                             </p>
                             <p className="text-yellow-200/80 mt-2">
                                 <strong>Contact:</strong> +91 9123456789
+                            </p>
+                            <p className="text-yellow-200/80">
+                                <strong>Email:</strong> contact@theajai.com
                             </p>
                             <a
                                 href="https://goo.gl/maps/example" // Replace with actual Google Maps link

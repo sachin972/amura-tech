@@ -202,6 +202,8 @@
 
 import Link from "next/link";
 import Logo from "./logo";
+import Enquiry from "@/public/images/enquiry.webp";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Header() {
@@ -233,12 +235,12 @@ export default function Header() {
     return (
         <>
             {/* Header */}
-            <header className="z-30 mt-2 w-full md:mt-2 sticky top-0">
-                <div className="mx-auto px-4 sm:px-6">
+            <header className="z-30 mt-0 w-full md:mt-0 sticky top-0">
+                <div className="mx-0 px-0 w-full">
                     <div
-                        className={`relative flex h-20 items-center justify-between gap-3 rounded-2xl ${
+                        className={`relative flex h-20 items-center justify-between gap-3 transition-all ${
                             isScrolled ? "bg-black" : "bg-transparent"
-                        } px-3 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 after:backdrop-blur-sm`}
+                        } px-3 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 `}
                     >
                         {/* Logo */}
                         <div className="flex flex-1 items-center">
@@ -274,7 +276,7 @@ export default function Header() {
                                 <li key={item.name}>
                                     <Link
                                         href={`/${item.route.toLowerCase()}`}
-                                        className="btn-sm relative bg-gradient-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] py-[5px] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
+                                        className="btn-sm relative bg-gradient-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] py-[5px] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
                                     >
                                         {item.name}
                                     </Link>
@@ -295,65 +297,80 @@ export default function Header() {
 
             {/* Popup */}
             {isPopupOpen && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm">
-                    <div className="bg-gray-800 rounded-lg p-6 w-full max-w-md relative">
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-green/80 backdrop-blur-sm">
+                    <div className="bg-green-950 rounded-lg p-6 w-full max-w-fit relative">
                         <button
                             className="absolute top-3 right-3 text-gray-300 hover:text-white text-2xl focus:outline-none"
                             onClick={togglePopup}
                         >
                             ✖
                         </button>
-                        <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-xl font-semibold text-transparent md:text-2xl">
+
+                        <h2 className="pt-5 animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-xl font-semibold text-transparent md:text-2xl">
                             Tell Us How can we reach you
                         </h2>
-                        <form className="space-y-4">
+                        <div className="grid gap-0 grid-cols-2 md:gap-28 max-md:grid-cols-1 items-center">
                             <div>
-                                <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
-                                    Name
-                                </label>
-                                <input
-                                    type="text"
-                                    className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
-                                    placeholder="Enter your name"
-                                />
+                                <form className="space-y-4">
+                                    <div>
+                                        <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
+                                            Name
+                                        </label>
+                                        <input
+                                            type="text"
+                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                                            placeholder="Enter your name"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
+                                            Contact Number
+                                        </label>
+                                        <input
+                                            type="tel"
+                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                                            placeholder="Enter your contact number"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
+                                            Email
+                                        </label>
+                                        <input
+                                            type="email"
+                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                                            placeholder="Enter your email"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
+                                            Company Name
+                                        </label>
+                                        <input
+                                            type="text"
+                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                                            placeholder="Enter your company name"
+                                        />
+                                    </div>
+                                    <button
+                                        type="submit"
+                                        className="w-full py-2 bg-yellow-500 text-gray-900 rounded-lg font-medium hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                                    >
+                                        Submit
+                                    </button>
+                                </form>
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
-                                    Contact Number
-                                </label>
-                                <input
-                                    type="tel"
-                                    className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
-                                    placeholder="Enter your contact number"
-                                />
+                                <div className="space-y-8 max-md:hidden ">
+                                    <Image
+                                        src={Enquiry}
+                                        alt={"Enquiry Image"}
+                                        height={550}
+                                        width={550}
+                                    />
+                                </div>
                             </div>
-                            <div>
-                                <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
-                                    Email
-                                </label>
-                                <input
-                                    type="email"
-                                    className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
-                                    placeholder="Enter your email"
-                                />
-                            </div>
-                            <div>
-                                <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
-                                    Company Name
-                                </label>
-                                <input
-                                    type="text"
-                                    className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
-                                    placeholder="Enter your company name"
-                                />
-                            </div>
-                            <button
-                                type="submit"
-                                className="w-full py-2 bg-yellow-500 text-gray-900 rounded-lg font-medium hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                            >
-                                Submit
-                            </button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             )}
