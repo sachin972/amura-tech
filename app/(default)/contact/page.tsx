@@ -518,24 +518,24 @@ export default function Contact() {
                             />
                             <div className="absolute inset-0 flex items-center justify-center bg-black/50">
                                 <h3 className="text-2xl font-semibold text-white">
-                                    1 PUNE
+                                    1 NCR
                                 </h3>
                             </div>
                         </div>
                         <div className="p-6">
                             <p className="text-yellow-200/80">
-                                3rd Floor, Sr. No. 9, H.No:1/2,
+                                108, Tower 3,
                                 <br />
-                                Near Ramada Plaza,
+                                Park View Residency,
                                 <br />
-                                Above Maruti Suzuki Suman Kirti Cars Pvt. Ltd.,
+                                Palam Vihar Sector 3,
                                 <br />
-                                Mahalunge, Pune,
+                                Gurugram,
                                 <br />
-                                Maharashtra 411045
+                                Haryana 411045
                             </p>
                             <p className="text-yellow-200/80 mt-2">
-                                <strong>Contact:</strong> +91 9876543210
+                                <strong>Contact:</strong> +91 7776082238
                             </p>
                             <p className="text-yellow-200/70">
                                 <strong>Email:</strong> contact@theajai.com
@@ -562,24 +562,24 @@ export default function Contact() {
                             />
                             <div className="absolute inset-0 flex items-center justify-center bg-black/50">
                                 <h3 className="text-2xl font-semibold text-white">
-                                    2 MUMBAI
+                                    2 Bengaluru
                                 </h3>
                             </div>
                         </div>
                         <div className="p-6">
                             <p className="text-yellow-200/80">
-                                91springboard Lotus,
+                                14 , 9th Main GG Road,
                                 <br />
-                                Plot No. D-5, Road No. 20, Marol MIDC,
+                                Falcon Towers,
                                 <br />
-                                Shree Krishna Nagar, Marol MIDC,
+                                Ejipura,
                                 <br />
-                                Industry Estate, Andheri East, Mumbai,
+                                Kormangala,
                                 <br />
-                                Maharashtra 400069, India
+                                Bangalore 560047
                             </p>
                             <p className="text-yellow-200/80 mt-2">
-                                <strong>Contact:</strong> +91 9123456789
+                                <strong>Contact:</strong> +91 7776082238
                             </p>
                             <p className="text-yellow-200/80">
                                 <strong>Email:</strong> contact@theajai.com
