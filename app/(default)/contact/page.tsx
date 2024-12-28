@@ -392,7 +392,7 @@ export default function Contact() {
                 </div>
 
                 {/* Contact Form */}
-                <div className="grid gap-12 md:grid-cols-2">
+                <div className="grid gap-40 md:grid-cols-2">
                     {/* Form */}
                     <div>
                         <form>
@@ -476,7 +476,7 @@ export default function Contact() {
                                 Koramangala , Bangalore 560047
                             </p>
                         </div> */}
-                        <div>
+                        <div className="my-auto right-0">
                             <h3 className="text-lg font-semibold text-yellow-200">
                                 Email Us
                             </h3>
