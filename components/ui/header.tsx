@@ -303,12 +303,12 @@ export default function Header() {
                         >
                             ✖
                         </button>
-                        <h2 className="text-xl font-semibold text-gray-100 mb-4">
+                        <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-xl font-semibold text-transparent md:text-2xl">
                             Tell Us How can we reach you
                         </h2>
                         <form className="space-y-4">
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-1">
+                                <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
                                     Name
                                 </label>
                                 <input
@@ -318,7 +318,7 @@ export default function Header() {
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-1">
+                                <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
                                     Contact Number
                                 </label>
                                 <input
@@ -328,7 +328,7 @@ export default function Header() {
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-1">
+                                <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
                                     Email
                                 </label>
                                 <input
@@ -338,7 +338,7 @@ export default function Header() {
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-1">
+                                <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
                                     Company Name
                                 </label>
                                 <input
