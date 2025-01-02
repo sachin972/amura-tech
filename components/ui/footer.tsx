@@ -26,22 +26,6 @@ export default function Footer() {
                             Our Offices
                         </h3>
                         <ul className="space-y-2 text-sm">
-                            {/* <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Pune
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Mumbai
-                                </a>
-                            </li> */}
                             <li>
                                 <a
                                     className="text-yellow-200/65 transition hover:text-yellow-500"
@@ -58,72 +42,9 @@ export default function Footer() {
                                     NCR
                                 </a>
                             </li>
-                            {/* <li>
-                <a
-                  className="text-yellow-200/65 transition hover:text-yellow-500"
-                  href="#0"
-                >
-                  Our method
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-yellow-200/65 transition hover:text-yellow-500"
-                  href="#0"
-                >
-                  User policy
-                </a>
-              </li> */}
                         </ul>
                     </div>
                     {/* 2nd block */}
-                    <div className="space-y-2">
-                        <h3 className="text-sm font-medium text-gray-200">
-                            Company
-                        </h3>
-                        <ul className="space-y-2 text-sm">
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    About us
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Diversity &amp; Inclusion
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Blog
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Careers
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Financial statements
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
                     {/* 3rd block */}
                     <div className="space-y-2">
                         <h3 className="text-sm font-medium text-gray-200">
@@ -146,14 +67,6 @@ export default function Footer() {
                                     In the News
                                 </a>
                             </li>
-                            {/* <li>
-                <a
-                  className="text-yellow-200/65 transition hover:text-yellow-500"
-                  href="#0"
-                >
-                  Careers
-                </a>
-              </li> */}
                             <li>
                                 <a
                                     className="text-yellow-200/65 transition hover:text-yellow-500"
@@ -173,61 +86,6 @@ export default function Footer() {
                         </ul>
                     </div>
                     {/* 4th block */}
-                    <div className="space-y-2">
-                        <h3 className="text-sm font-medium text-gray-200">
-                            Key Pages
-                        </h3>
-                        <ul className="space-y-2 text-sm">
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Services
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Industries
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Clients
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Our Work
-                                </a>
-                            </li>
-                            {/* <li>
-                <a
-                  className="text-yellow-200/65 transition hover:text-yellow-500"
-                  href="#0"
-                >
-                  About Amura
-                </a>
-              </li> */}
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Technologies
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
                     {/* 5th block */}
                     <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:text-center">
                         <div className="mb-1">
@@ -236,13 +94,6 @@ export default function Footer() {
                         <div className="text-xs">
                             <p className="mb-3 text-yellow-200/65">
                                 © amura-tech.com
-                                {/* <span className="text-gray-700"> · </span>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Terms
-                                </a> */}
                             </p>
                             <ul className="inline-flex gap-2">
                                 <li>
