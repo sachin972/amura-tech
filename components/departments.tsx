@@ -61,9 +61,9 @@ export default function AnimatedCards() {
     return (
         <section className="bg-darkGray py-12">
             <div className="container mx-auto px-6 md:px-12">
-                <h2 className="text-center text-2xl md:text-3xl font-bold text-white mb-8 animate-fadeIn">
+                {/* <h2 className="text-center text-2xl md:text-3xl font-bold text-white mb-8 animate-fadeIn">
                     Explore Our Solutions
-                </h2>
+                </h2> */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center">
                     {cards.map((card, index) => (
                         <div
@@ -95,7 +95,7 @@ export default function AnimatedCards() {
                                 className="bottom-0 w-full bg-none py-4 text-center"
                                 // id={card.id}
                             >
-                                <p className="text-white text-lg font-semibold">
+                                <p className="text-yellow-300 text-lg font-semibold">
                                     {card.title}
                                 </p>
                             </div>
