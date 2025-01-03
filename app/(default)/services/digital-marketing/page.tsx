@@ -1,6 +1,6 @@
 // import Services from "../page";
 
-export default function MediaPlanning({}) {
+export default function DigitalMarketing({}) {
     return (
         <>
             {/* <Services /> */}
@@ -8,7 +8,7 @@ export default function MediaPlanning({}) {
                 {/* Header Section */}
                 <div className="bg-gray-800 p-8 rounded-lg shadow-lg mb-8">
                     <h2 className="text-yellow-400 text-lg uppercase tracking-wide">
-                        01 Digital Marketing
+                        01 Digital Strategy
                     </h2>
                     <h1 className="text-4xl font-bold mt-4">
                         The Roadmap to Your Growth
@@ -44,6 +44,10 @@ export default function MediaPlanning({}) {
                                 Communication & Creative Strategy
                             </h3>
                             <p className="text-yellow-200/65">
+                                We employ omni-channel creative communication
+                                strategy & growth strategy defined by success
+                                metrics
+                                <br />
                                 Our creative strategies map specific messaging
                                 for your defined audiences and create
                                 exceptional experiences in the process, all with
@@ -69,6 +73,9 @@ export default function MediaPlanning({}) {
                                 Marketing Strategy
                             </h3>
                             <p className="text-yellow-200/65">
+                                We build actionable and technology-driven
+                                contextual strategies around your audience
+                                <br />
                                 In a series of short experiments that allow us
                                 to go live faster and see what’s working faster,
                                 then scaling it to achieve long-term results.
@@ -97,7 +104,10 @@ export default function MediaPlanning({}) {
                                 Market and Buyer Analysis
                             </h3>
                             <p className="text-yellow-200/65">
-                                Our growth marketing strategy defines your
+                                With in-depth research & user segmentation
+                                supported by online behaviour analysis
+                                <br />
+                                our growth marketing strategy defines your
                                 consumer’s behaviour and path to purchase. This
                                 analysis helps us nurture your customers across
                                 the marketing funnel.

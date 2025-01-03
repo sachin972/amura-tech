@@ -1,6 +1,6 @@
 // import Services from "../page";
 
-export default function MediaPlanning({}) {
+export default function ECommerce({}) {
     return (
         <>
             {/* <Services /> */}
@@ -11,12 +11,13 @@ export default function MediaPlanning({}) {
                         06 Product Based Solutions
                     </h2>
                     <h1 className="text-4xl font-bold mt-4">
-                        The Roadmap to Your Growth
+                        Grow your e-commerce business, ground up
                     </h1>
                     <p className="text-lg text-gray-300 mt-4">
-                        Our data-powered insights and growth-centric strategies
-                        are designed to expand your customer lifetime value and
-                        increase revenue in the long run.
+                        Our end-to-end e-commerce solutions guarantee your
+                        business growth through long-term growth-focused
+                        strategy, comprehensive technical support from our
+                        in-house team and expert consultation & assistance.
                     </p>
                 </div>
 
@@ -41,13 +42,17 @@ export default function MediaPlanning({}) {
                                 />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Communication & Creative Strategy
+                                E-Commerce Website Creation & Migration
                             </h3>
                             <p className="text-yellow-200/65">
-                                Our creative strategies map specific messaging
-                                for your defined audiences and create
-                                exceptional experiences in the process, all with
-                                pre-determined success metrics in hand.
+                                Our extensive e-commerce expertise ensures
+                                quality website creation or revamp.
+                                <br />
+                                We have our in-house design and development
+                                experts dedicated to build, support and expand
+                                online presence with easy platform migration,
+                                payment gateway integration and responsive
+                                e-commerce stores that facilitates better sales.
                             </p>
                         </article>
 
@@ -66,16 +71,18 @@ export default function MediaPlanning({}) {
                                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Marketing Strategy
+                                Marketplace Integration
                             </h3>
                             <p className="text-yellow-200/65">
-                                In a series of short experiments that allow us
-                                to go live faster and see what’s working faster,
-                                then scaling it to achieve long-term results.
-                                This blueprint attracts, engages and converts
-                                your target audience into leads, and also goes
-                                forward to nurture and retain them for long-term
-                                value.
+                                We help in positioning business on marketplaces
+                                like Amazon, Flipkart, Myntra, PayTM and more
+                                for higher visibility and sales.
+                                <br />
+                                Our comprehensive marketplace integration helps
+                                in setting up new business on these popular
+                                marketplace platforms and allows the right
+                                product recommendations based on marketplace
+                                analysis.
                             </p>
                         </article>
 
@@ -94,13 +101,102 @@ export default function MediaPlanning({}) {
                                 />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Market and Buyer Analysis
+                                Full Funnel Digital Marketing
                             </h3>
                             <p className="text-yellow-200/65">
-                                Our growth marketing strategy defines your
-                                consumer’s behaviour and path to purchase. This
-                                analysis helps us nurture your customers across
-                                the marketing funnel.
+                                We cover the entire consumer funnel with PPC
+                                campaigns, content marketing, SEO and social
+                                media communications that are aligned with the
+                                customer’s journey.
+                                <br />
+                                We focus on constant experimentation to
+                                understand what works and what doesn’t so that
+                                our team is agile to scale what’s generating the
+                                maximum revenue.
+                            </p>
+                        </article>
+                        <article>
+                            <svg
+                                className="mb-3 fill-yellow-500"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={24}
+                                height={24}
+                            >
+                                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
+                                <path
+                                    fillOpacity=".48"
+                                    d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
+                                />
+                            </svg>
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+                                Analytics{" "}
+                            </h3>
+                            <p className="text-yellow-200/65">
+                                We analyze raw data from every channel like
+                                online marketplaces, social media, or even from
+                                low traffic channels like email support or
+                                shopping comparison engines.
+                                <br />
+                                We then assess the data and diligently report it
+                                with new recommendations and insights. With a
+                                focus on business growth, we ensure the best
+                                return on investment.
+                            </p>
+                        </article>
+                        <article>
+                            <svg
+                                className="mb-3 fill-yellow-500"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={24}
+                                height={24}
+                            >
+                                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
+                                <path
+                                    fillOpacity=".48"
+                                    d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
+                                />
+                            </svg>
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+                                Order Fulfilment{" "}
+                            </h3>
+                            <p className="text-yellow-200/65">
+                                We help simplify last-mile logistics needs by
+                                tying up with reputed delivery services like
+                                Shiprocket, Delhivery, to mention a few.
+                                <br />
+                                We help in managing & sending all e-commerce
+                                shipments once the order is placed through our
+                                own e-commerce platform or other marketplace
+                                which does not support order fulfilment.
+                            </p>
+                        </article>
+                        <article>
+                            <svg
+                                className="mb-3 fill-yellow-500"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={24}
+                                height={24}
+                            >
+                                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
+                                <path
+                                    fillOpacity=".48"
+                                    d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
+                                />
+                            </svg>
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+                                E-Commerce Consulting
+                            </h3>
+                            <p className="text-yellow-200/65">
+                                We help in business progress 360 degree
+                                assistance and consultation on market trends,
+                                competition,
+                                <br />
+                                marketplace associations, logistics, payment
+                                processing are all integral parts of making your
+                                brand journey successful. With our decade-old
+                                expertise and associations we give you access to
+                                tried and tested solutions to your e-Commerce
+                                journey.
                             </p>
                         </article>
                     </div>

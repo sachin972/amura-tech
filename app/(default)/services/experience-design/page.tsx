@@ -1,6 +1,6 @@
 // import Services from "../page";
 
-export default function MediaPlanning({}) {
+export default function ExperienceDesign({}) {
     return (
         <>
             {/* <Services /> */}
@@ -11,12 +11,13 @@ export default function MediaPlanning({}) {
                         05 Experience Design
                     </h2>
                     <h1 className="text-4xl font-bold mt-4">
-                        The Roadmap to Your Growth
+                        Design-driven for your Growth
                     </h1>
                     <p className="text-lg text-gray-300 mt-4">
-                        Our data-powered insights and growth-centric strategies
-                        are designed to expand your customer lifetime value and
-                        increase revenue in the long run.
+                        Whatever we design has a direct impact on growth
+                        <br /> Even our design teams are well-versed with
+                        technology platforms, ensuring with constant
+                        optimisation that creative translate well into results.
                     </p>
                 </div>
 
@@ -41,13 +42,17 @@ export default function MediaPlanning({}) {
                                 />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Communication & Creative Strategy
+                                Advertising campaign design
                             </h3>
                             <p className="text-yellow-200/65">
-                                Our creative strategies map specific messaging
-                                for your defined audiences and create
-                                exceptional experiences in the process, all with
-                                pre-determined success metrics in hand.
+                                By pairing design research with relevant content
+                                for effective branding and advertising
+                                campaigns, we follow an integrated approach
+                                <br />
+                                that combines the best of creative design with
+                                data-driven digital marketing. Our customizable
+                                website development services create
+                                highly-engaging online brand experiences.
                             </p>
                         </article>
 
@@ -66,16 +71,15 @@ export default function MediaPlanning({}) {
                                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Marketing Strategy
+                                Video and storyboarding
                             </h3>
                             <p className="text-yellow-200/65">
-                                In a series of short experiments that allow us
-                                to go live faster and see what’s working faster,
-                                then scaling it to achieve long-term results.
-                                This blueprint attracts, engages and converts
-                                your target audience into leads, and also goes
-                                forward to nurture and retain them for long-term
-                                value.
+                                Building a story that truly engages your
+                                audience with today’s hottest medium - video.
+                                <br />A combination of demographics data and
+                                digital usage information to align design
+                                solutions that don’t just look great, but work
+                                in term of creating meaningful experiences.
                             </p>
                         </article>
 
@@ -94,13 +98,16 @@ export default function MediaPlanning({}) {
                                 />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Market and Buyer Analysis
+                                UI/UX
                             </h3>
                             <p className="text-yellow-200/65">
-                                Our growth marketing strategy defines your
-                                consumer’s behaviour and path to purchase. This
-                                analysis helps us nurture your customers across
-                                the marketing funnel.
+                                Balancing user-centricity with great design to
+                                deliver visually stunning and functional design
+                                solutions.
+                                <br />
+                                we understand user interaction patterns to build
+                                a user experience that is custom targeted to
+                                your audience.
                             </p>
                         </article>
                     </div>

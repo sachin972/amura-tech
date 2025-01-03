@@ -9,6 +9,7 @@ module.exports = {
         extend: {
             backgroundImage: {
                 background: "url('/images/background.png')",
+                career: "url('/images/careers/careers.webp'",
                 // 'footer-texture': "url('/img/footer-texture.png')",
             },
             fontFamily: {

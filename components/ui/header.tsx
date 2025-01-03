@@ -203,6 +203,7 @@
 import Link from "next/link";
 import Logo from "./logo";
 import Enquiry from "@/public/images/enquiry.webp";
+import VideoThumb from "@/public/images/hero-image-01.webp";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -268,7 +269,7 @@ export default function Header() {
                                 { name: "Home", route: "/" },
                                 {
                                     name: "Industries & Services",
-                                    route: "services/digital-marketing",
+                                    route: "services",
                                 },
                                 { name: "Careers", route: "careers" },
                                 { name: "Contact Us", route: "contact" },
@@ -364,7 +365,7 @@ export default function Header() {
                             <div>
                                 <div className="space-y-8 max-md:hidden ">
                                     <Image
-                                        src={Enquiry}
+                                        src={VideoThumb}
                                         alt={"Enquiry Image"}
                                         height={550}
                                         width={550}

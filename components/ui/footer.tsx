@@ -1,6 +1,7 @@
 import Logo from "./logo";
 import Image from "next/image";
 import FooterIllustration from "@/public/images/footer-illustration.svg";
+import Link from "next/link";
 
 export default function Footer() {
     return (
@@ -25,21 +26,51 @@ export default function Footer() {
                         <h3 className="text-sm font-medium text-gray-200">
                             Our Offices
                         </h3>
+                    </div>
+                    <div className="space-y-2">
+                        <h3 className="text-sm font-medium text-gray-200">
+                            <Link href={"/contact"}>NCR</Link>
+                        </h3>
                         <ul className="space-y-2 text-sm">
-                            <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
-                                >
-                                    Bengaluru
-                                </a>
-                            </li>
-                            <li>
+                            {/* <li>
                                 <a
                                     className="text-yellow-200/65 transition hover:text-yellow-500"
                                     href="#0"
                                 >
                                     NCR
+                                </a>
+                            </li> */}
+                            <li>
+                                <a
+                                    className="text-yellow-200/65 transition hover:text-yellow-500"
+                                    href="#0"
+                                >
+                                    108, Tower 3, Park View Residency, Palam
+                                    Vihar Sector 3, Gurugram, Haryana 411045
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="space-y-2">
+                        <h3 className="text-sm font-medium text-gray-200">
+                            <Link href={"/contact"}>Bengaluru</Link>
+                        </h3>
+                        <ul className="space-y-2 text-sm">
+                            {/* <li>
+                                <a
+                                    className="text-yellow-200/65 transition hover:text-yellow-500"
+                                    href="#0"
+                                >
+                                    NCR
+                                </a>
+                            </li> */}
+                            <li>
+                                <a
+                                    className="text-yellow-200/65 transition hover:text-yellow-500"
+                                    href="#0"
+                                >
+                                    14 , 9th Main GG Road, Falcon Towers,
+                                    Ejipura, Kormangala, Bangalore 560047
                                 </a>
                             </li>
                         </ul>
@@ -52,36 +83,36 @@ export default function Footer() {
                         </h3>
                         <ul className="space-y-2 text-sm">
                             <li>
-                                <a
+                                <Link
                                     className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
+                                    href="/careers"
                                 >
-                                    Blogs
-                                </a>
+                                    Careers
+                                </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a
                                     className="text-yellow-200/65 transition hover:text-yellow-500"
                                     href="#0"
                                 >
                                     In the News
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
-                                <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
+                                <Link
+                                    className="text-yellow-200/65 transition opacity-75 cursor-default"
+                                    href=""
                                 >
                                     Sitemap
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a
+                                <Link
                                     className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    href="#0"
+                                    href="/privacy-policy"
                                 >
                                     Privacy Policy
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
