@@ -513,12 +513,12 @@ export default function Contact() {
                     {/* Pune Office */}
                     <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
                         <div className="relative h-64">
-                            <Image
+                            {/* <Image
                                 src="/path-to-pune-image.jpg" // Replace with actual image path
                                 alt="Pune Office"
                                 layout="fill"
                                 objectFit="cover"
-                            />
+                            /> */}
                             <div className="absolute inset-0 flex items-center justify-center bg-black/50">
                                 <h3 className="text-2xl font-semibold text-white">
                                     1 NCR
@@ -559,12 +559,12 @@ export default function Contact() {
                     {/* Mumbai Office */}
                     <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
                         <div className="relative h-64">
-                            <Image
+                            {/* <Image
                                 src="/path-to-mumbai-image.jpg" // Replace with actual image path
                                 alt="Mumbai Office"
                                 layout="fill"
                                 objectFit="cover"
-                            />
+                            /> */}
                             <div className="absolute inset-0 flex items-center justify-center bg-black/50">
                                 <h3 className="text-2xl font-semibold text-white">
                                     2 Bengaluru
