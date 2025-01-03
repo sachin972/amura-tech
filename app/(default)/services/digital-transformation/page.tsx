@@ -1,6 +1,6 @@
 // import Services from "../page";
 
-export default function MediaPlanning({}) {
+export default function DigitalTransformation({}) {
     return (
         <>
             {/* <Services /> */}
@@ -11,12 +11,13 @@ export default function MediaPlanning({}) {
                         04 Digital Transformation
                     </h2>
                     <h1 className="text-4xl font-bold mt-4">
-                        The Roadmap to Your Growth
+                        Grow with the changing demands
                     </h1>
                     <p className="text-lg text-gray-300 mt-4">
-                        Our data-powered insights and growth-centric strategies
-                        are designed to expand your customer lifetime value and
-                        increase revenue in the long run.
+                        Transform your business by leveraging our expertise in
+                        cutting-edge digital technologies, experience creative
+                        design, app development, mobile app design and
+                        analytics.
                     </p>
                 </div>
 
@@ -41,13 +42,16 @@ export default function MediaPlanning({}) {
                                 />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Communication & Creative Strategy
+                                Digital Transformation Services
                             </h3>
                             <p className="text-yellow-200/65">
-                                Our creative strategies map specific messaging
-                                for your defined audiences and create
-                                exceptional experiences in the process, all with
-                                pre-determined success metrics in hand.
+                                Architecturing a strong experience using the
+                                most effective technologies at optimized costs
+                                <br />
+                                we utilize frontend technologies, backend
+                                technologies, databases, CMS and Ecom platforms,
+                                marketing & advertising and analytics platforms
+                                to solve complex business problems.
                             </p>
                         </article>
 
@@ -66,16 +70,18 @@ export default function MediaPlanning({}) {
                                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Marketing Strategy
+                                Improved efficiency and customer satisfaction
                             </h3>
                             <p className="text-yellow-200/65">
-                                In a series of short experiments that allow us
-                                to go live faster and see what’s working faster,
-                                then scaling it to achieve long-term results.
-                                This blueprint attracts, engages and converts
-                                your target audience into leads, and also goes
-                                forward to nurture and retain them for long-term
-                                value.
+                                Improving efficiency by pursuing innovative
+                                marketing solutions and disruptive offerings
+                                <br />
+                                Our digital transformation experts assess your
+                                customers accurately on their current digital
+                                maturity so that we can exceed their
+                                expectations with a customised online
+                                experience, ultimately increasing your company’s
+                                efficiency.
                             </p>
                         </article>
 
@@ -94,13 +100,14 @@ export default function MediaPlanning({}) {
                                 />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Market and Buyer Analysis
+                                Responsive Mobile-first solutions
                             </h3>
                             <p className="text-yellow-200/65">
-                                Our growth marketing strategy defines your
-                                consumer’s behaviour and path to purchase. This
-                                analysis helps us nurture your customers across
-                                the marketing funnel.
+                                By conceptualizing, designing, building and
+                                maintaining custom applications for web & mobile
+                                <br />
+                                We provide customized mobile app development
+                                services to enhance the user experience.
                             </p>
                         </article>
                     </div>

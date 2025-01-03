@@ -1,6 +1,6 @@
 // import Services from "../page";
 
-export default function MediaPlanning({}) {
+export default function ContentAndEngineering({}) {
     return (
         <>
             {/* <Services /> */}
@@ -11,12 +11,14 @@ export default function MediaPlanning({}) {
                         02 Content & Engineering Marketing
                     </h2>
                     <h1 className="text-4xl font-bold mt-4">
-                        The Roadmap to Your Growth
+                        The Essence of Sustainable Growth
                     </h1>
                     <p className="text-lg text-gray-300 mt-4">
-                        Our data-powered insights and growth-centric strategies
-                        are designed to expand your customer lifetime value and
-                        increase revenue in the long run.
+                        In a world full of distractions where customers have the
+                        last say, acquisition is only the start. It will mean
+                        nothing if people don’t stick to your product or
+                        service. Our content & engagement marketing helps you
+                        address this vital factor to achieve sustainable growth.
                     </p>
                 </div>
 
@@ -41,13 +43,19 @@ export default function MediaPlanning({}) {
                                 />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Communication & Creative Strategy
+                                Content Marketing Services
                             </h3>
                             <p className="text-yellow-200/65">
-                                Our creative strategies map specific messaging
-                                for your defined audiences and create
-                                exceptional experiences in the process, all with
-                                pre-determined success metrics in hand.
+                                Our omni-channel, measurable approach is built
+                                around your audience
+                                <br />
+                                Our copy department being well-versed with
+                                technology, each content marketing initiative is
+                                backed by data and analysed for results. By
+                                considering your audience’s online behaviour,
+                                path to purchase and lifestyle preferences
+                                across every channel, we create better
+                                experiences across your web assets.
                             </p>
                         </article>
 
@@ -66,16 +74,16 @@ export default function MediaPlanning({}) {
                                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Marketing Strategy
+                                SEO Marketing: Search Engine Optimisation
                             </h3>
                             <p className="text-yellow-200/65">
-                                In a series of short experiments that allow us
-                                to go live faster and see what’s working faster,
-                                then scaling it to achieve long-term results.
-                                This blueprint attracts, engages and converts
-                                your target audience into leads, and also goes
-                                forward to nurture and retain them for long-term
-                                value.
+                                From offering SEO expert ideas to delivering SEO
+                                optimization services, we constantly evolve with
+                                strategies
+                                <br />
+                                that keep your brand on the map. We create
+                                on-trend, intuitive strategies to keep your
+                                brand at the top of search engine results pages.
                             </p>
                         </article>
 
@@ -94,13 +102,44 @@ export default function MediaPlanning({}) {
                                 />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                                Market and Buyer Analysis
+                                Diversified Social Strategies
                             </h3>
                             <p className="text-yellow-200/65">
-                                Our growth marketing strategy defines your
-                                consumer’s behaviour and path to purchase. This
-                                analysis helps us nurture your customers across
-                                the marketing funnel.
+                                We enable seamless conversations with your
+                                audience, where they spend time everyday
+                                <br />
+                                From LinkedIn to Instagram. We combine each
+                                social channel’s inherent attributes with your
+                                audience’s purpose for it for both,
+                                well-researched and dynamic social media
+                                marketing strategies.
+                            </p>
+                        </article>
+                        <article>
+                            <svg
+                                className="mb-3 fill-yellow-500"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={24}
+                                height={24}
+                            >
+                                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
+                                <path
+                                    fillOpacity=".48"
+                                    d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
+                                />
+                            </svg>
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+                                Engagement Planning
+                            </h3>
+                            <p className="text-yellow-200/65">
+                                We encourage customers to interact and share in
+                                the brand experiences
+                                <br />
+                                Our content engagement plans offer your
+                                audiences something meaningful beyond a product
+                                pitch - a brilliant end-to-end customer
+                                experience through an interactive content
+                                marketing strategy.
                             </p>
                         </article>
                     </div>
