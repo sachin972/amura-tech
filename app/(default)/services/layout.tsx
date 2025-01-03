@@ -271,35 +271,35 @@ export default function DefaultLayout({
                             <div className="bg-gradient-to-br from-green-950 via-gray-900 to-green-700 text-white">
                                 <div className="flex flex-col">
                                     {/* Sidebar Navigation */}
-                                    <div className="w-full bg-green-800 p-6">
+                                    <div className="w-full  bg-blue-800/20 p-6">
                                         <ul className="flex flex-wrap items-center justify-between gap-4">
-                                            <li className="text-yellow-200/60 hover:text-yellow-500 cursor-pointer">
+                                            <li className="text-yellow-400/80 hover:text-yellow-600 cursor-pointer">
                                                 <Link href="/services/digital-marketing">
                                                     Digital Strategy
                                                 </Link>
                                             </li>
-                                            <li className="text-yellow-200/60 hover:text-yellow-500 cursor-pointer">
+                                            <li className="text-yellow-400/80 hover:text-yellow-600 cursor-pointer">
                                                 <Link href="/services/content-and-engineering">
                                                     Content & Engagement
                                                     Marketing
                                                 </Link>
                                             </li>
-                                            <li className="text-yellow-200/60 hover:text-yellow-500 cursor-pointer">
+                                            <li className="text-yellow-400/80 hover:text-yellow-600 cursor-pointer">
                                                 <Link href="/services/media-planning-analytics">
                                                     Media Planning & Analytics
                                                 </Link>
                                             </li>
-                                            <li className="text-yellow-200/60 hover:text-yellow-500 cursor-pointer">
+                                            <li className="text-yellow-400/80 hover:text-yellow-600 cursor-pointer">
                                                 <Link href="/services/digital-transformation">
                                                     Digital Transformation
                                                 </Link>
                                             </li>
-                                            <li className="text-yellow-200/60 hover:text-yellow-500 cursor-pointer">
+                                            <li className="text-yellow-400/80 hover:text-yellow-600 cursor-pointer">
                                                 <Link href="/services/experience-design">
                                                     Experience Design
                                                 </Link>
                                             </li>
-                                            <li className="text-yellow-200/60 hover:text-yellow-500 cursor-pointer">
+                                            <li className="text-yellow-400/80 hover:text-yellow-600 cursor-pointer">
                                                 <Link href="/services/e-commerce-solutions">
                                                     E-Commerce Solutions
                                                 </Link>
@@ -313,6 +313,7 @@ export default function DefaultLayout({
                                     <div
                                         data-aos="fade-up"
                                         data-aos-delay={400}
+                                        className="mb-5"
                                     >
                                         <a
                                             className="cursor-pointer btn group mb-4 w-full bg-gradient-to-t from-yellow-600/40 to-yellow-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
@@ -324,7 +325,7 @@ export default function DefaultLayout({
                                                     ?.click();
                                             }}
                                         >
-                                            <span className="relative inline-flex items-center">
+                                            <span className="relative inline-flex items-center mb">
                                                 Learn More
                                                 <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                                                     -&gt;

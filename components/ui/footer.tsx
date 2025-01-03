@@ -28,11 +28,13 @@ export default function Footer() {
                         </h3>
                     </div>
                     <div className="space-y-2">
-                        <h3 className="text-sm font-medium text-gray-200">
-                            <Link href={"/contact"}>NCR</Link>
-                        </h3>
-                        <ul className="space-y-2 text-sm">
-                            {/* <li>
+                        <ul>
+                            <li className="space-y-2">
+                                <h3 className="text-sm font-medium text-gray-200">
+                                    <Link href={"/contact"}>NCR</Link>
+                                </h3>
+                                <ul className="space-y-2 text-sm">
+                                    {/* <li>
                                 <a
                                     className="text-yellow-200/65 transition hover:text-yellow-500"
                                     href="#0"
@@ -40,14 +42,42 @@ export default function Footer() {
                                     NCR
                                 </a>
                             </li> */}
-                            <li>
+                                    <li>
+                                        <a
+                                            className="text-yellow-200/65 transition hover:text-yellow-500"
+                                            href="#0"
+                                        >
+                                            108, Tower 3, Park View Residency,
+                                            Palam Vihar Sector 3, Gurugram,
+                                            Haryana 411045
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className="space-y-2">
+                                <h3 className="text-sm font-medium text-gray-200">
+                                    <Link href={"/contact"}>Bengaluru</Link>
+                                </h3>
+                                <ul className="space-y-2 text-sm">
+                                    {/* <li>
                                 <a
                                     className="text-yellow-200/65 transition hover:text-yellow-500"
                                     href="#0"
                                 >
-                                    108, Tower 3, Park View Residency, Palam
-                                    Vihar Sector 3, Gurugram, Haryana 411045
+                                    NCR
                                 </a>
+                            </li> */}
+                                    <li>
+                                        <a
+                                            className="text-yellow-200/65 transition hover:text-yellow-500"
+                                            href="#0"
+                                        >
+                                            14 , 9th Main GG Road, Falcon
+                                            Towers, Ejipura, Kormangala,
+                                            Bangalore 560047
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
@@ -120,7 +150,7 @@ export default function Footer() {
                     {/* 5th block */}
                     <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:text-center">
                         <div className="mb-1">
-                            <Logo height={760} width={760} />
+                            <Logo height={700} width={700} />
                         </div>
                         <div className="text-xs">
                             <p className="mb-3 text-yellow-200/65">

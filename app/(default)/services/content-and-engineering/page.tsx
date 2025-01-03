@@ -6,14 +6,14 @@ export default function ContentAndEngineering({}) {
             {/* <Services /> */}
             <div className="w-full p-8">
                 {/* Header Section */}
-                <div className="bg-gray-800 p-8 rounded-lg shadow-lg mb-8">
+                <div className="bg-blue-800/10 p-8 rounded-lg shadow-lg mb-8">
                     <h2 className="text-yellow-400 text-lg uppercase tracking-wide">
                         02 Content & Engineering Marketing
                     </h2>
-                    <h1 className="text-4xl font-bold mt-4">
+                    <h1 className="text-4xl font-bold mt-4 text-yellow-500/80">
                         The Essence of Sustainable Growth
                     </h1>
-                    <p className="text-lg text-gray-300 mt-4">
+                    <p className="text-lg text-yellow-100/90 mt-4">
                         In a world full of distractions where customers have the
                         last say, acquisition is only the start. It will mean
                         nothing if people don’t stick to your product or
@@ -23,8 +23,8 @@ export default function ContentAndEngineering({}) {
                 </div>
 
                 {/* Scope Section */}
-                <div className="bg-gray-700 p-8 rounded-lg shadow-lg">
-                    <h3 className="text-2xl font-bold text-white mb-4">
+                <div className="bg-gray-800/50 p-8 rounded-lg shadow-lg">
+                    <h3 className="text-2xl font-bold text-yellow-500 mb-4">
                         Scope
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -42,10 +42,10 @@ export default function ContentAndEngineering({}) {
                                     d="M13.01 12.508a2.5 2.5 0 0 0-3.502.482L1.797 23.16.203 21.952l7.71-10.17a4.5 4.5 0 1 1 7.172 5.437l-4.84 6.386-1.594-1.209 4.841-6.385a2.5 2.5 0 0 0-.482-3.503Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
                                 Content Marketing Services
                             </h3>
-                            <p className="text-yellow-200/65">
+                            <p className="text-yellow-200/90">
                                 Our omni-channel, measurable approach is built
                                 around your audience
                                 <br />
@@ -73,10 +73,10 @@ export default function ContentAndEngineering({}) {
                                 />
                                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
                                 SEO Marketing: Search Engine Optimisation
                             </h3>
-                            <p className="text-yellow-200/65">
+                            <p className="text-yellow-200/90">
                                 From offering SEO expert ideas to delivering SEO
                                 optimization services, we constantly evolve with
                                 strategies
@@ -101,10 +101,10 @@ export default function ContentAndEngineering({}) {
                                     d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
                                 Diversified Social Strategies
                             </h3>
-                            <p className="text-yellow-200/65">
+                            <p className="text-yellow-200/90">
                                 We enable seamless conversations with your
                                 audience, where they spend time everyday
                                 <br />
@@ -128,10 +128,10 @@ export default function ContentAndEngineering({}) {
                                     d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
                                 Engagement Planning
                             </h3>
-                            <p className="text-yellow-200/65">
+                            <p className="text-yellow-200/90">
                                 We encourage customers to interact and share in
                                 the brand experiences
                                 <br />
