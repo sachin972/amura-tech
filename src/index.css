@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Additional styles */
+@import "./additional-styles/utility-patterns.css";
+@import "./additional-styles/theme.css";
+@import "tailwindcss/utilities";
+
+@layer utilities {
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .animate-fadeIn {
+        animation: fadeIn 1s ease-out;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
